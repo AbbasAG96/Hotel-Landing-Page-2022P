@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  color: #fff2ef;
+  width: 95%;
+}
+body {
+  min-width: 95%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: #fff2ef;
+}
+li {
+  list-style-type: none;
+}
+
+/* working on header */
+header {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+header p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.964rem;
+}
+header p span {
+  color: #ff6841;
+}
+nav li {
+  display: inline-block;
+  padding: 0px 1.25rem;
+  font-weight: 400;
+  line-height: 2.078rem;
+  cursor: pointer;
+}
+.nav_links li:hover {
+  border-bottom: 3px solid #ff6841;
+  transition: all 0.2s ease-in 0s;
+}
+.nav_links li:nth-child(6) {
+  background-color: #ff6841;
+  padding: 1rem 1.5rem;
+  color: #111111;
+}
+.book_now {
+  color: #111111;
+}
+/* working on my main with 7 section */
+/* Section 1 */
+.firstSection{
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : center;
+  font-size: 1.25rem;
+  position: relative;
+  min-height: 44.5rem;  
+}
+.firstSection p{
+  font-weight: 400;
+  font-family:"Mukta", sans-serif;
+  font-size: 20px;
+  line-height: 33px;
+  padding-bottom: 30px;
+}
+.firstSection_h1{
+  color: #ff6841;
+  line-height: 100px;
+  margin: 0;
+  padding:0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+}
+.firstSection a{
+  padding:16px 24px;
+  background-color: #ff6841;
+  color: #111111;
+  font-family:"Mukta", sans-serif;
+  font-weight: 500  ;
+  top: 100px;
+}
+.firstImg{
+  position: absolute;
+  left:52%;
+  top: 0%;
+  height: 38.063rem;
+  width: 24.875rem;
+}
+.secondImg{
+  position: absolute;
+  left: 77.1%;
+  height: 30.938rem;
+  width: 20.625rem;
+  top: 13.563rem;
+}
+
+
+
+
+/* Section 2 */
+.secondSection{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10rem ;
+  align-items: center;
+}
+.secondSection h2{
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff6841;
+}
+.secondSection h1{
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+.secondSection p{
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  padding-bottom: 30px;
+}
+.secondSection a{
+  background-color: #ff6841;
+  height: 62px;
+  width: 156px;
+  left: 0px;
+  padding: 16px 24px;
+  color: #111111;
+}
+/* Section 3 */
+main section:nth-child(3)
+/* Section 4 */
+main section:nth-child(4)
+/* Section 5 */
+main section:nth-child(5)
+/* Section 6 */
+main section:nth-child(6)
+/* Section 7 */
+main section:nth-child(7)
+/* working on my footer */
